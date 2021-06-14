@@ -1,6 +1,6 @@
 html{
     
-    background-image: url(images/backimage8.jpg);
+    background-image: url(https://bhavyashah1403.github.io/learning-all-about-India/img/backimage8.jpg);
     
     height: 100%;
     background-position: center;
@@ -30,7 +30,7 @@ header h1{
     box-sizing: border-box;
     font-size: 108%;
     
-    background: url(images/color-tile.png) left top repeat-x, #fff url(images/color-tile.png) left bottom repeat-x;
+    background: url(https://bhavyashah1403.github.io/learning-all-about-India/img/color-tile.png) left top repeat-x, #fff url(https://bhavyashah1403.github.io/learning-all-about-Indiaimg/color-tile.png) left bottom repeat-x;
     
 }
 
