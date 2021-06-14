@@ -5,10 +5,14 @@ html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: cursive,sans-serif;
+    font-family: tahoma,sans-serif;
 }
 
-
+h2 a{
+    text-decoration:underline;
+    font-weight:bold;
+    
+}
 .sitenav li
 {
     list-style: none;
