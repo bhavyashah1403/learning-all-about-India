@@ -1,0 +1,201 @@
+html{
+    background-image: url(images/backPink.jpg);
+        
+    height: 100%;
+    background-position: center;
+    background-repeat: repeat-y;
+    border: lightgreen;
+    background-size: cover;
+    font-family: cursive,sans-serif;
+    margin-left: 10px;
+    }
+
+.container{
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+    padding-top: 50px;
+    
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    box-sizing: border-box;    
+
+}
+
+
+ .sitenav li
+{
+    list-style: none;
+    float:left;
+    margin-right: 5px;
+}
+
+.sitenav ul{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.sitenav a{
+    display: block;
+    background-color: white;
+    color:black ;
+    text-decoration: none;
+    padding: 15px 25px;
+    border: 3px solid #617140;
+    box-sizing: border-box;
+    
+}
+
+.sitenav a:hover{
+    background-color: #e5e9dc;
+}
+
+ h2 a{
+   
+    color: black;
+
+}
+
+.group::before,
+.group::after{
+    content: "";
+    display: table;
+}
+
+.group::after{
+    clear: both;
+}
+.group{
+    zoom: 1;
+}
+
+
+@-webkit-keyframes fadeBounce{
+    0%
+    {
+        opacity: 0;
+        transform: translateY(-200%);
+    }
+
+    40%
+    {
+        transform: translateY(0);
+    }
+    55%
+    {
+        transform: translateY(-6px);
+    }
+    70%
+    {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    85%
+    {
+        transform: translateY(-3px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes fadeBounce{
+    0%
+    {
+        opacity: 0;
+        transform: translateY(-200%);
+    }
+
+    40%
+    {
+        transform: translateY(0);
+    }
+    55%
+    {
+        transform: translateY(-6px);
+    }
+    70%
+    {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    85%
+    {
+        transform: translateY(-3px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+   
+}
+.home1 {
+    -webkit-animation: fadeBounce 1s;
+    animation: fadeBounce 1s;
+}
+.contact1{
+    -webkit-animation: fadeBounce 1s;
+    animation: fadeBounce 1s;
+}
+.blog1{
+    -webkit-animation: fadeBounce 1s;
+    animation: fadeBounce 1s;
+}
+.poem1{
+    -webkit-animation: fadeBounce 1s;
+    animation: fadeBounce 1s;
+}
+
+
+@media screen and (max-width:700px)
+{
+   .sitenav li{
+       width: 33.332%;
+       margin-right: 0px;
+   } 
+   .sitenav a{
+       padding: 15px 0;
+       margin-right: 5px;
+       margin-bottom: 5px;
+       text-align: center;
+   }
+  
+  }
+
+
+@media screen and (max-width:480px)
+{
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top:20px;
+    }
+    .sitenav li{
+        width: 50%;
+        margin-right: 0px;
+    } 
+    .sitenav a{
+        padding: 15px 0;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+}
+@media screen and (min-width:1300px)
+{
+    .container{
+    max-width: 1200px;
+    }
+    body{
+        font-size: 18px;
+    }
+}
