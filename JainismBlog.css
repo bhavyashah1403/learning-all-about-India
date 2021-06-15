@@ -327,13 +327,12 @@ header{
 @media screen and (min-width:1300px)
 {
     .container{
-    max-width: 1200px;
+    max-width: 1000px;
     }
     body{
         font-size: 18px;
     }
-    html{ 
-        background-image: url(images/backimage8.jpg);}
+   
 }
 /*
 .parent{
