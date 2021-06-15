@@ -3,7 +3,7 @@ html{
     background-image: url(images/backimage8.jpg);
     
     height: 100%;
-    background-position: center;
+    
     background-repeat: repeat-y;
     border: lightgreen;
     background-size: cover;
@@ -84,7 +84,8 @@ header h1{
 
 img{
     max-width: 100%;
-    height: auto;
+    
+    
 }
 
 .sitenav a{
