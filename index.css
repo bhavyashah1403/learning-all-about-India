@@ -13,7 +13,9 @@ h1{
     font-style: italic;
 }
 
-
+header h1{
+    text-align: center;
+}
 
 .group::before,
 .group::after{
